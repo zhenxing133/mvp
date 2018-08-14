@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ffffff</color>
+    <color name="colorPrimaryDark">#ffffff</color>
+    <color name="colorAccent">#ffffff</color>
+
+    <color name="white">#ffffff</color>
+    <color name="immersion_color">#18191A</color>
+    <color name="yellow_font">#Fdd947</color>
+    <color name="gray_qian">#6D6B6C</color>
+
+    <color name="black_color">#18191A</color>
+
+    <color name="gray_qian2">#D4D5D6</color>
+    <color name="background_color">#131419</color>
+
+    <color name="wheelColor">#999999</color>
+    <color name="text_gray4">#888888</color>
+
+    <color name="root_color_qian">#fd6745</color>
+    <color name="root_gary">#757A80</color>
+</resources>
