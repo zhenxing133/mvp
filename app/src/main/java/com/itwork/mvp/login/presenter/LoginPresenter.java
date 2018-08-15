@@ -21,7 +21,7 @@ import io.reactivex.schedulers.Schedulers;
 
 public class LoginPresenter extends BaseMvpPresenter<LoginView> {
 
-    //登录的业务逻辑
+    //登录的必要业务逻辑
     public void startLogin(final String username,final String password) {
         if (password.isEmpty()|| username.isEmpty()) {
             getMvpView().showToast("账号密码不能为空");
