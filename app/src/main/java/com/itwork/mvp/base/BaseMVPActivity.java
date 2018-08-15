@@ -10,7 +10,6 @@ import com.itwork.mvp.proxy.BaseMvpProxy;
 import com.itwork.mvp.proxy.PresenterProxyInterface;
 
 /**
- * Created by yuanzhenxing on
  * @date 2018/05/22
  *   mvp activity基类 声明一个创建Presenter的方法 因为要帮子类去绑定和解绑那么就需要拿到子类的Presenter才行
  *

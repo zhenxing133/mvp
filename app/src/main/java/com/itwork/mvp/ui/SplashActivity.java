@@ -11,7 +11,7 @@ import com.itwork.mvp.login.view.LoginActivity;
 
 
 /**
- * Created by yuanzhenxing on 2017/12/7.
+ * Created by yuanzhenxing on 2018/8/15
  *  启动页
  */
 

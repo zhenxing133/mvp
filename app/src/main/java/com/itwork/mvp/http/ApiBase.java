@@ -1,5 +1,7 @@
 package com.itwork.mvp.http;
 
+import com.itwork.mvp.ui.Constant;
+
 import java.util.concurrent.TimeUnit;
 
 import okhttp3.OkHttpClient;
@@ -10,12 +12,12 @@ import retrofit2.converter.scalars.ScalarsConverterFactory;
 
 /**
  * Created by yuanzhenxing on
- * @date 2018/05/22
+ * @date 2018/08/15
  *   网络接口请求基类
  *    提供了一个空参的和一个有参的构造方法 特定的接口就可以直接传
  */
 
-public class ApiBase {
+public class ApiBase{
 
 
     protected static IApiService getService() {  //拿到api接口类
@@ -31,7 +33,7 @@ public class ApiBase {
                 .connectTimeout(connectTime <= 0 ? 30 : connectTime, TimeUnit.SECONDS)
                 .build();
         Retrofit retrofit = new Retrofit.Builder()
-                .baseUrl(ip == null ? "http://47.52.251.133:8080/" : ip)
+                .baseUrl(ip == null ? Constant.BASE_IP : ip)
                 .client(client)
                 .addCallAdapterFactory(RxJava2CallAdapterFactory.create())//添加RxJava
                 .addConverterFactory(ScalarsConverterFactory.create())
